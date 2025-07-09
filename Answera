@@ -1,0 +1,78 @@
+
+
+## 📌 Question 1: Define the following terms and give one example of each:
+
+### Error  
+An **error** is a human mistake made during the software development process, typically during coding, designing, or requirement gathering.  
+
+**Example:** A developer writes `x = y + z` instead of `x = y - z`.
+
+---
+
+### Defect (Bug)  
+A **defect** is an issue or flaw in the software code that may cause the program to behave unexpectedly or incorrectly. It usually results from an error.
+
+**Example:** Due to the above error, the calculation in the billing module gives an incorrect total.
+
+---
+
+### Failure  
+A **failure** occurs when the software does not perform the intended function or produces incorrect results during execution, usually due to a defect.
+
+**Example:** When a user checks out of the e-commerce site, they are charged $50 instead of $30 due to a defect in the discount logic.
+
+---
+
+##  Question 2: Explain the "Pesticide Paradox" in software testing.
+
+The **Pesticide Paradox** states that if the same set of test cases is repeated over and over, eventually these tests will no longer find new defects. Just as pests develop resistance to pesticides, software may pass unchanged tests while new bugs remain undetected.
+
+**Why it matters:**  
+It highlights the need to regularly **review and update** test cases to cover new paths, edge cases, and functionalities.
+
+**How to overcome it:**  
+- Add new test cases regularly.  
+- Update test scripts when software changes.  
+- Use exploratory and automated testing to increase coverage.
+
+---
+
+##  Question 3: Differentiate between static and dynamic testing.
+
+| Aspect               | Static Testing                          | Dynamic Testing                           |
+|----------------------|------------------------------------------|--------------------------------------------|
+| Execution            | Does **not** require code execution      | Requires **running** the software/code     |
+| Examples             | Code review, walkthroughs, inspections   | Unit testing, system testing, integration testing |
+| Timing               | Performed early in the SDLC              | Performed after the code is implemented    |
+
+**Real-World Example (Static):**  
+Reviewing code using pull requests on GitHub before merging.
+
+**Real-World Example (Dynamic):**  
+Running automated unit tests after each commit using CI/CD tools like GitHub Actions or Jenkins.
+
+---
+
+## 📌 Question 4: List and briefly describe any three software testing principles.
+
+1. **Testing shows the presence of defects:**  
+   Testing can reveal bugs, but it cannot prove that the software is completely error-free.
+
+2. **Early testing saves time and money:**  
+   The earlier a defect is found, the cheaper it is to fix.
+
+3. **Defect clustering:**  
+   A small number of modules usually contain the majority of defects. Focusing on these areas improves efficiency.
+
+---
+
+## 📌 Question 5: Why is early testing important in the SDLC?
+
+**Early testing** helps detect defects at the **requirement and design phases**, where fixing issues is cheaper and less complex compared to fixing them during or after development.
+
+**Example:**  
+If incorrect requirements are caught during the analysis phase (e.g., the wrong tax rate for an invoice system), they can be corrected quickly. If not, it might lead to faulty logic in multiple modules that will require extensive rework later.
+
+---
+
+✅ **End of Assignment**
